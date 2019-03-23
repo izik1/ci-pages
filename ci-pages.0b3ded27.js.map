@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";AAAAA,QAAQC,IAAI,eACZD,QAAQC,IAAI","file":"ci-pages.0b3ded27.js","sourceRoot":"..","sourcesContent":["console.log('hello world')\nconsole.log(\"foobarbaz\")\n"]}
