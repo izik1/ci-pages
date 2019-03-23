@@ -2,15 +2,10 @@ language: node_js
 node_js:
   - "8"
 cache: yarn
-jobs:
-  include:
-    - stage: build
-    - script: yarn build
-    - stage: deploy
-      deploy:
-        provider: pages
-        skip-cleanup: true
-        github-token: $GITHUB_TOKEN
-        keep-history: true
-        on:
-          branch: master
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
