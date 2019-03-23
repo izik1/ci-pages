@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html",
-    "test": true
+    "test": "parcel build index.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3"

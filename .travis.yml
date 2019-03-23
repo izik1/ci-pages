@@ -14,7 +14,3 @@ jobs:
         keep-history: true
         on:
           branch: master
-          
-stages:
-  - build
-  - deploy
